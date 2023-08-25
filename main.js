@@ -14,7 +14,10 @@ function toggleDarkMode() {
     'hbtn',
     'skill-title',
     'percentage',
-    'skills-title'
+    'skills-title',
+    'article-title',
+    'articles-title',
+    'footer'
   ];
 
   if (isDarkMode) {

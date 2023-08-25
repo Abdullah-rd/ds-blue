@@ -8,8 +8,9 @@ body{
     background-color: #FAF9FD;
     margin: 0;
     padding: 0;
-    min-height: 3000px;
+    min-height: 1600px;
     transition: 0.15s ease-in-out;
+    position: relative;
 }
 
 a,a:focus,

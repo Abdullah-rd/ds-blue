@@ -1,0 +1,19 @@
+.footer{
+    background-color: #fce041;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 25px;
+    color: #212121;
+    letter-spacing: 3px;
+}
+.footer-darkmode{
+    background-color: #2196F3;
+    color: white;
+}

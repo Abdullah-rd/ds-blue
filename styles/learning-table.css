@@ -18,11 +18,11 @@
 }
 
 .pbtn1{
-    border: 3px solid #fce041;
-    color: #fce041;
+    border: 3px solid #e0c423;
+    color: #e0c423;
 }
 .pbtn1:hover{
-    background:#fce041 ;
+    background:#e0c423 ;
 }
 .pbtn2{
     border: 3px solid #5DC3F0;
@@ -82,7 +82,7 @@ margin-top:100px;
 
 
 .default1bar{
-    background-color: #fce041;
+    background-color: #e0c423;
     height: 6px;
     width: 50%;
     border: none;
