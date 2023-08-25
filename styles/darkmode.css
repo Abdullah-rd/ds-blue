@@ -1,0 +1,49 @@
+.body-darkmode{
+    background-color: #202123;
+    color: #FAF9FD;
+}
+.hbtn-darkmode{
+  border: 3px solid #fff;
+  color: #fff;
+
+}
+.hbtn-darkmode:hover{
+ color: #1A1A1A;
+  background-color: #fff;
+}
+
+.pbtn3-darkmode{
+    border: 3px solid #fff;
+    color: #fff;
+}
+.pbtn3-darkmode:hover{
+    background:#fff ;
+}
+
+.title-darkmode{
+    color: #FAF9FD;
+    background: linear-gradient(
+        to bottom,
+        transparent 50%,
+        #2196F3 50%
+    );
+}
+.lightmode-darkmode{
+    border: 3px solid #fff;
+    background-image: url("../images/moon.png");
+    
+}
+.lightmode-darkmode:hover{
+    color:#1A1A1A;
+    background-image: url("../images/sun.png");
+    background-color: #fff;
+}
+.default3bar-darkmode{
+    background-color: #FAF9FD;
+
+}
+
+.horline-darkmode{
+    background-color: #2196F3;
+}
+
