@@ -1,4 +1,4 @@
-.footer{
+.footer {
     background-color: #fce041;
     height: 50px;
     position: absolute;
@@ -13,16 +13,17 @@
     color: #212121;
     letter-spacing: 3px;
 }
-.footer-darkmode{
+
+.footer-darkmode {
     background-color: #2196F3;
     color: #eceef3;
 }
 
 
-@media (max-width:700px){
-    .footer{    
+@media (max-width:700px) {
+    .footer {
         height: 27px;
-        font-size:0.7em;
-        letter-spacing:2px;
+        font-size: 0.7em;
+        letter-spacing: 2px;
     }
 }

@@ -1,46 +1,51 @@
-.body-darkmode{
+.body-darkmode {
     background-color: #202123;
     color: #eceef3;
 }
-.hbtn-darkmode{
-  border: 3px solid #eceef3;
-  color: #eceef3;
 
-}
-.hbtn-darkmode:hover{
- color: #1A1A1A;
-  background-color: #eceef3;
-}
-
-
-
-.title-darkmode{
+.hbtn-darkmode {
+    border: 3px solid #eceef3;
     color: #eceef3;
-    background: linear-gradient(
-        to bottom,
-        transparent 50%,
-        #2196F3 50%
-    );
+
 }
-.lightmode-darkmode{
+
+.hbtn-darkmode:hover {
+    color: #1A1A1A;
+    background-color: #eceef3;
+}
+
+
+
+.title-darkmode {
+    color: #eceef3;
+    background: linear-gradient(to bottom,
+            transparent 50%,
+            #2196F3 50%);
+}
+
+.lightmode-darkmode {
     border: 3px solid #eceef3;
     background-image: url("../images/moon.png");
-    
+
 }
-.lightmode-darkmode:hover{
-    color:#1A1A1A;
+
+.lightmode-darkmode:hover {
+    color: #1A1A1A;
     background-image: url("../images/sun.png");
     background-color: #eceef3;
 }
-.default3bar-darkmode{
+
+.default3bar-darkmode {
     background-color: #eceef3;
 
 }
 
-.horline-darkmode{
+.horline-darkmode {
     background-color: #2196F3;
 }
 
-.content2-darkmode,.content-darkmode,.writer-darkmode{
-    color: #Acb2c9 ;
+.content2-darkmode,
+.content-darkmode,
+.writer-darkmode {
+    color: #Acb2c9;
 }

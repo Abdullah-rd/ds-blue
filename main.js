@@ -34,8 +34,8 @@ function setDark() {
     elements.forEach(element => {
       element.classList.add(className + '-darkmode');
       if (className !== 'hbtn' && className !== 'content' && className !== 'content2' && className !== 'writer') {
-        element.style.color = 'white'; 
-      }      
+        element.style.color = 'white';
+      }
     });
   });
 }
@@ -47,7 +47,7 @@ function setLight() {
     const elements = document.querySelectorAll('.' + className);
     elements.forEach(element => {
       element.classList.remove(className + '-darkmode');
-      element.style.color = ''; 
-    }); 
+      element.style.color = '';
+    });
   });
 }

@@ -1,10 +1,9 @@
-
-*{
-    font-family:  Tahoma, Geneva, Verdana, sans-serif;
+* {
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
     color: #1A1A1A;
 }
 
-body{
+body {
     background-color: #faf9fd;
     margin: 0;
     padding: 0;
@@ -13,21 +12,23 @@ body{
     position: relative;
 }
 
-a,a:focus,
+a,
+a:focus,
 a:active {
     text-decoration: none;
 }
 
-.smsg{
+.smsg {
     display: none;
     position: absolute;
     left: 0;
-    transform: rotate(300deg); 
+    transform: rotate(300deg);
     color: rgb(155, 152, 152);
     font-size: 30px;
 }
+
 @media (min-width:2700px) {
-    .smsg{
+    .smsg {
         display: block;
     }
 }
