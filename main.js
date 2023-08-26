@@ -13,11 +13,17 @@ const elementsToToggle = [
   'skills-title',
   'article-title',
   'articles-title',
-  'footer'
+  'footer',
+  'articles-hr',
 ];
 
-let isDarkMode = JSON.parse(localStorage.getItem('dark')) || false;
-if (isDarkMode) setDark();
+let isDarkMode = JSON.parse(localStorage.getItem('dark'));
+
+if (isDarkMode === null) {
+  isDarkMode = true;
+}
+
+isDarkMode ? setDark() : setLight();
 
 
 function toggleDarkMode() {
@@ -33,7 +39,8 @@ function setDark() {
     const elements = document.querySelectorAll('.' + className);
     elements.forEach(element => {
       element.classList.add(className + '-darkmode');
-      if (className !== 'hbtn' && className !== 'content' && className !== 'content2' && className !== 'writer') {
+      if (className !== 'hbtn' && className !== 'content' && className !== 'content2' && className !== 'writer' ) //not proud of this *-*
+       {
         element.style.color = 'white';
       }
     });

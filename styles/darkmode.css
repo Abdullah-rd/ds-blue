@@ -46,6 +46,10 @@
 
 .content2-darkmode,
 .content-darkmode,
-.writer-darkmode {
+.writer-darkmode,.article-title-darkmode {
     color: #Acb2c9;
+}
+
+.articles-hr-darkmode{
+    background-color: #eceef3;
 }
