@@ -1,27 +1,21 @@
 .body-darkmode{
     background-color: #202123;
-    color: #FAF9FD;
+    color: #eceef3;
 }
 .hbtn-darkmode{
-  border: 3px solid #fff;
-  color: #fff;
+  border: 3px solid #eceef3;
+  color: #eceef3;
 
 }
 .hbtn-darkmode:hover{
  color: #1A1A1A;
-  background-color: #fff;
+  background-color: #eceef3;
 }
 
-.pbtn3-darkmode{
-    border: 3px solid #fff;
-    color: #fff;
-}
-.pbtn3-darkmode:hover{
-    background:#fff ;
-}
+
 
 .title-darkmode{
-    color: #FAF9FD;
+    color: #eceef3;
     background: linear-gradient(
         to bottom,
         transparent 50%,
@@ -29,17 +23,17 @@
     );
 }
 .lightmode-darkmode{
-    border: 3px solid #fff;
+    border: 3px solid #eceef3;
     background-image: url("../images/moon.png");
     
 }
 .lightmode-darkmode:hover{
     color:#1A1A1A;
     background-image: url("../images/sun.png");
-    background-color: #fff;
+    background-color: #eceef3;
 }
 .default3bar-darkmode{
-    background-color: #FAF9FD;
+    background-color: #eceef3;
 
 }
 
@@ -47,3 +41,6 @@
     background-color: #2196F3;
 }
 
+.content2-darkmode,.content-darkmode,.writer-darkmode{
+    color: #Acb2c9 ;
+}

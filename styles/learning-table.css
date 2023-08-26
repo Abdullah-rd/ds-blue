@@ -42,19 +42,24 @@
 .skill-info-container{
     display: flex;
     flex-direction: column;
+    flex: 1;
+    margin-right: 45px;
     justify-content: space-between;
 }
 .skills-container{
-display: grid;
+display: flex;
+flex-direction: column;
 text-align: center;
 margin-top:100px;
+width: 550px;
 }
 .skill-title-container{
     display: flex;
+    flex: 2;
     justify-content: space-between;
-    width: 380px;
     align-items: center;
     font-size: 20px;
+    margin-bottom: 7px;
 }
 .skills-title,.articles-title{
     font-size: 30px;
@@ -71,7 +76,6 @@ margin-top:100px;
 .skill{
     display: flex;
     margin-top:60px;
-    width: 550px;
     justify-content: space-between;
     font-weight: 600;
 }
@@ -84,7 +88,7 @@ margin-top:100px;
 .default1bar{
     background-color: #e0c423;
     height: 6px;
-    width: 50%;
+    width: 1%;
     border: none;
     border-radius: 5px;
 }
@@ -92,14 +96,14 @@ margin-top:100px;
 .default2bar{
     background-color: #5DC3F0 ;
     height: 6px;
-    width: 25%;
+    width: 1%;
     border: none;
     border-radius: 5px;
 }
 .default3bar{
     background-color: #171515;
     height: 6px;
-    width: 75%;
+    width: 1%;
     border: none;
     border-radius: 5px;
 }
@@ -110,5 +114,27 @@ margin-top:100px;
     background-color: #b5b2b257;
     height: 6px;
     border-radius: 5px;
-    z-index: 0;
+    flex:1;
+}
+
+@media (max-width:710px) {
+    .skills-container{
+    max-width: 90%;
+    }
+    .skill-title,.percentage{
+        font-size: 0.8em;
+    }
+}
+
+@media(max-width:500px){
+    .skills-container{
+        max-width: 100%;
+        margin-top: 43px;
+    }
+    .skill-info-container{
+        margin-right: 17px;
+    }
+    .skills-title{
+        font-size:25px;
+    }
 }
