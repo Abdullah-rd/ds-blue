@@ -4,10 +4,11 @@
     grid-template-rows: repeat(1, 300px);
     grid-column-gap: 37px;
     grid-row-gap: 44px;
+    margin-bottom: 50px;
 }
 .articles-container{
     margin-top:115px;
-    width: 1100px;
+    max-width: 1100px;
 }
 .articles-title{
     margin-bottom: 70px;

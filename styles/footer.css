@@ -17,3 +17,12 @@
     background-color: #2196F3;
     color: #eceef3;
 }
+
+
+@media (max-width:700px){
+    .footer{    
+        height: 27px;
+        font-size:0.7em;
+        letter-spacing:2px;
+    }
+}

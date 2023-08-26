@@ -178,7 +178,8 @@
 
 
 @media (max-width:500px){
-  
+    
+   
     .logo-img{
         max-width: 300px;
     }
@@ -194,5 +195,5 @@
     .skills-container{
         margin-top:50px;
     }
-    
+   
 }
