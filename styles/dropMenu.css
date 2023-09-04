@@ -1,0 +1,44 @@
+
+.dropdown-menu{
+    display: none;
+}
+.dropdown{
+    position:absolute;
+    background-color: #faf9fd;    
+    left: 0;
+    top:0;
+    bottom: 0;
+    width: 290px;
+    border-radius: 0px 15px 15px 0px;    
+    z-index: 100;
+    padding: 10px 20px 10px 5px;
+    max-height: 100vh;
+    overflow-y: auto; 
+}   
+
+.dropdown-header{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+.background{
+    background-color: #00000080;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left:0;
+    right: 0;
+    z-index: 99;
+}
+.exit{
+    background-image: url("../images/delete.png");
+    background-size: 29px;
+}
+.menu-element{
+border-radius: 10px;
+}
+.dropdown-main{
+    margin-top: 40px;
+    display: grid;
+    row-gap: 10px;
+}

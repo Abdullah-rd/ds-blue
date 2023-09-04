@@ -15,6 +15,14 @@ const elementsToToggle = [
   'articles-title',
   'footer',
   'articles-hr',
+  'mread',
+  'categorie',
+  'hr-article',
+  'article',
+  'dropdown',
+  'exit',
+  'dropdownmenu'
+  
 ];
 
 let isDarkMode = JSON.parse(localStorage.getItem('dark'));
@@ -39,7 +47,7 @@ function setDark() {
     const elements = document.querySelectorAll('.' + className);
     elements.forEach(element => {
       element.classList.add(className + '-darkmode');
-      if (className !== 'hbtn' && className !== 'content' && className !== 'content2' && className !== 'writer' ) //not proud of this *-*
+      if (className !== 'hbtn' && className !== 'content' && className !== 'content2' && className !== 'writer' && className !=='mread' && className!=='categorie' ) //not proud of this *-*
        {
         element.style.color = 'white';
       }
@@ -58,3 +66,23 @@ function setLight() {
     });
   });
 }
+
+
+const menuButton = document.querySelector('.dropdownmenu');
+const exitButton = document.querySelector('.exit');
+
+const dropdownMenu = document.querySelector('.dropdown-menu');
+
+menuButton.addEventListener('click', () => {
+        dropdownMenu.style.display = 'block';
+        document.body.style.overflowY = 'hidden';
+});
+
+
+exitButton.addEventListener('click',() => {
+  dropdownMenu.style.display = 'none';
+  document.body.style.overflowY = 'auto';
+});
+
+
+

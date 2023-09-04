@@ -102,7 +102,7 @@
 .default1bar {
     background-color: #e0c423;
     height: 6px;
-    width: 1%;
+    width: 6.67%;
     border: none;
     border-radius: 5px;
 }
@@ -118,7 +118,7 @@
 .default3bar {
     background-color: #171515;
     height: 6px;
-    width: 1%;
+    width: 6.7%;
     border: none;
     border-radius: 5px;
 }

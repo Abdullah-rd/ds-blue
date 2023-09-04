@@ -53,3 +53,33 @@
 .articles-hr-darkmode{
     background-color: #eceef3;
 }
+
+
+.hr-article-darkmode{
+    background-color: #Acb2c9;
+}
+
+.article-darkmode:hover{
+    background-color: #b6c2cb0b;
+}
+
+
+.mread-darkmode,.categorie-darkmode{
+    color: #Acb2c9;
+}
+
+
+.dropdown-darkmode{
+    background-color: #202123;
+}
+
+
+
+.dropdownmenu-darkmode{
+    background-image: url("../images/menu-darkmode.png");
+}
+
+.exit-darkmode{
+    background-image: url("../images/delete-darkmode.png");
+
+}

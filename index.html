@@ -8,16 +8,19 @@
     <link rel="stylesheet" href="styles/learning-table.css">
     <link rel="stylesheet" href="styles/settings.css">
     <link rel="stylesheet" href="styles/articles.css">
-    <link rel="stylesheet" href="styles/darkmode.css">
     <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/dropMenu.css">
+    <link rel="stylesheet" href="styles/darkmode.css">
     <link rel="icon" href="images/icon.png" type="image/png">
-
     <title>Blue</title>
 </head>
 
 <body>
     <div class="header">
-        <button class="lightmode" onclick="toggleDarkMode(); "></button>
+        <div class="header-left-container">
+        <!-- <button class="lightmode" onclick="toggleDarkMode(); "></button> -->
+        <button class="dropdownmenu"></button>
+        </div>
         <div class="links-container">
             <link rel="stylesheet" href="">
             <a class="hbtn github-link" href="https://github.com/Abdullah-rd" target="_blank">Github </a>
@@ -54,7 +57,7 @@
                     <div class="skill-title-container">
                         <div class="skill-title"> <img src="images/JavaScript-logo.png" alt="" class="skill-logo">
                             javascript</div>
-                        <div class="percentage">1%</div>
+                        <div class="percentage" >6.76%</div>
                     </div>
                     <div class="skill-bar-container">
                         <div class="skill-bar">
@@ -87,7 +90,7 @@
                     <div class="skill-title-container">
                         <div class="skill-title Github"> <img src="images/github.png" alt="" class="skill-logo"> Github
                         </div>
-                        <div class="percentage">1%</div>
+                        <div class="percentage">6.76%</div>
                     </div>
                     <div class="skill-bar-container">
                         <div class="skill-bar">
@@ -100,6 +103,9 @@
             </div>
         </div>
 
+<div class="habits-button-container">
+</div>
+
         <div class="articles-container">
             <div class="articles-title">
                 <hr class="articles-hr">
@@ -109,13 +115,32 @@
                     <img src="images/design.jpg" alt="" class="article-photo">
                     <div class="article-info">
                         <div class="article-title">How to get design inspiration</div>
+                        <div class="article-desc">
+                            
+                            <hr class="hr-article">
+                            <div class="article-categorie-container">
+                            <div class="mread">
+                                15 minutes</div>
+                            <div class="categorie">Tech</div>
+                            </div>
+                        </div>
                     </div>
 
                 </div>
                 <div class="article article1">
                     <img src="images/ai.jpg" alt="" class="article-photo">
                     <div class="article-info">
-                        <div class="article-title">how chat gpt is becoming dumber by the day</div>
+                        <div class="article-title">how gpt v3.5 is becoming dumber by the day</div>
+                        <div class="article-desc">
+                            <hr class="hr-article">
+                            <div class="article-categorie-container">
+                            <div class="mread">
+                                15 minutes</div>
+                            <div class="categorie">Tech</div>
+                            </div>
+
+                        </div>
+
                     </div>
 
                 </div>
@@ -123,6 +148,12 @@
                     <img src="images/community.jpg" alt="" class="article-photo">
                     <div class="article-info">
                         <div class="article-title">how joining communities will speed up the process of learning</div>
+                        <div class="article-desc">     <hr class="hr-article">
+                            <div class="article-categorie-container">
+                            <div class="mread">
+                                15 minutes</div>
+                            <div class="categorie">Tech</div></div>
+
                     </div>
 
                 </div>
@@ -133,7 +164,22 @@
 
 
 
+<div class="dropdown-menu">
+    <div class="dropdown">
+        <div class="dropdown-header">
+        <button class="dropdownmenu exit"></button>
+        <button class="lightmode" onclick="toggleDarkMode(); "></button> 
+        </div>
 
+        <div class="dropdown-main">
+            <a href="html/habits.html" class="hbtn menu-element">MY HABITS TRACKER</a>
+            <a href="html/habits.html" class="hbtn menu-element">Soon...</a>
+            <a href="html/habits.html" class="hbtn menu-element">Soon...</a>
+
+        </div>
+    </div>
+    <div class="background"></div>
+</div>
     <div class="footer">implementing Next.js and Tailwind soon</div>
     <div class="smsg">what a wide screen</div>
     <script src="main.js"></script>
